@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <title>Conversión de Unidades SOAP</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link href="./style.css" rel="stylesheet" />
+</head>
+<body class="convert-page">
+  <div class="overlay"></div>
+  <div class="container">
+    <h1>Conversión de Unidades SOAP</h1>
+
+    <div class="row">
+      <label>Operación</label>
+      <select id="op">
+        <option value="celsiusAfahrenheit">Celsius → Fahrenheit</option>
+        <option value="fahrenheitAcelsius">Fahrenheit → Celsius</option>
+        <option value="celsiusAkelvin">Celsius → Kelvin</option>
+        <option value="metrosApies">Metros → Pies</option>
+        <option value="pulgadasAcentimetros">Pulgadas → Centímetros</option>
+        <option value="gramosAonzas">Gramos → Onzas</option>
+        <option value="kilometrosAmillas">Kilómetros → Millas</option>
+        <option value="kilogramosAlibras">Kilogramos → Libras</option>
+        <option value="librasAkilogramos">Libras → Kilogramos</option>
+      </select>
+    </div>
+
+    <div class="row">
+      <label>Valor</label>
+      <input type="number" id="value" step="any" placeholder="Ejemplo: 25" />
+    </div>
+
+    <button id="btnConvert">Convertir</button>
+
+    <div id="convMsg" class="msg result"></div>
+
+    <hr />
+    <a href="./index.html" id="logout">Cerrar sesión</a>
+  </div>
+
+  <script src="./soap.js"></script>
+</body>
+</html>

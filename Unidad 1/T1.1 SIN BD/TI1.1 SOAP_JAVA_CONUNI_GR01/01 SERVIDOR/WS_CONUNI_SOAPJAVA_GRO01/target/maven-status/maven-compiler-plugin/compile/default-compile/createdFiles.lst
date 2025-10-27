@@ -1,0 +1,9 @@
+ec\edu\monster\prueba\PruebaConversiones.class
+ec\edu\monster\modelo\ConversorMasa.class
+ec\edu\monster\prueba\PruebaUsuario.class
+ec\edu\monster\controlador\ConversionController.class
+ec\edu\monster\modelo\ConversorTemperatura.class
+ec\edu\monster\modelo\UsuarioModel.class
+ec\edu\monster\controlador\UsuarioController.class
+ec\edu\monster\modelo\ConversorLongitud.class
+ec\edu\monster\ws\WS_Conversion_Unidades.class
