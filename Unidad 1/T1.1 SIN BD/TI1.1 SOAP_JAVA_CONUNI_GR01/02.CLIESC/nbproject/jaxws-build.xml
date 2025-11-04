@@ -33,5 +33,22 @@
         <delete dir="${build.generated.dir}/jax-wsCache/WS_Conversion_Unidades"/>
         <delete dir="${build.generated.sources.dir}/jax-ws/ec/edu/monster/ws"/>
     </target>
-    <target name="wsimport-client-generate" depends="wsimport-client-WS_Conversion_Unidades"/>
+    <target name="wsimport-client-WS_Conversion_Unidades_1" depends="wsimport-init">
+        <mkdir dir="${build.generated.dir}/jax-wsCache/WS_Conversion_Unidades_1"/>
+        <property name="wsdl-WS_Conversion_Unidades_1" location="xml-resources/web-service-references/WS_Conversion_Unidades_1/wsdl/10.40.30.12_8080/WS_CONUNI_SOAPJAVA_GRO01/WS_Conversion_Unidades.wsdl"/>
+        <wsimport sourcedestdir="${build.generated.dir}/jax-wsCache/WS_Conversion_Unidades_1" destdir="${build.generated.dir}/jax-wsCache/WS_Conversion_Unidades_1" wsdl="${wsdl-WS_Conversion_Unidades_1}" catalog="catalog.xml" encoding="${source.encoding}" extension="true" verbose="true" fork="false" wsdlLocation="http://10.40.30.12:8080/WS_CONUNI_SOAPJAVA_GRO01/WS_Conversion_Unidades?wsdl" xnocompile="true" xendorsed="true" package="ec.edu.monster.ws">
+            <depends file="${wsdl-WS_Conversion_Unidades_1}"/>
+            <produces dir="${build.generated.dir}/jax-wsCache/WS_Conversion_Unidades_1"/>
+        </wsimport>
+        <copy todir="${build.generated.sources.dir}/jax-ws">
+            <fileset dir="${build.generated.dir}/jax-wsCache/WS_Conversion_Unidades_1">
+                <include name="**/*.java"/>
+            </fileset>
+        </copy>
+    </target>
+    <target name="wsimport-client-clean-WS_Conversion_Unidades_1" depends="-init-project">
+        <delete dir="${build.generated.dir}/jax-wsCache/WS_Conversion_Unidades_1"/>
+        <delete dir="${build.generated.sources.dir}/jax-ws/ec/edu/monster/ws"/>
+    </target>
+    <target name="wsimport-client-generate" depends="wsimport-client-WS_Conversion_Unidades, wsimport-client-WS_Conversion_Unidades_1"/>
 </project>

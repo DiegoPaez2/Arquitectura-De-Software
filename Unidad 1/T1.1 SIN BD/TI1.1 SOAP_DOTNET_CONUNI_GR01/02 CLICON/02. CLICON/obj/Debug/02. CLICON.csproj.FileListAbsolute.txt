@@ -1,0 +1,7 @@
+D:\Arquitectura-De-Software\Unidad 1\T1.1 SIN BD\TI1.1 SOAP_DOTNET_CONUNI_GR01\02 CLICON\02. CLICON\bin\Debug\_02.CLICON.exe.config
+D:\Arquitectura-De-Software\Unidad 1\T1.1 SIN BD\TI1.1 SOAP_DOTNET_CONUNI_GR01\02 CLICON\02. CLICON\bin\Debug\_02.CLICON.exe
+D:\Arquitectura-De-Software\Unidad 1\T1.1 SIN BD\TI1.1 SOAP_DOTNET_CONUNI_GR01\02 CLICON\02. CLICON\bin\Debug\_02.CLICON.pdb
+D:\Arquitectura-De-Software\Unidad 1\T1.1 SIN BD\TI1.1 SOAP_DOTNET_CONUNI_GR01\02 CLICON\02. CLICON\obj\Debug\02. CLICON.csproj.AssemblyReference.cache
+D:\Arquitectura-De-Software\Unidad 1\T1.1 SIN BD\TI1.1 SOAP_DOTNET_CONUNI_GR01\02 CLICON\02. CLICON\obj\Debug\02. CLICON.csproj.CoreCompileInputs.cache
+D:\Arquitectura-De-Software\Unidad 1\T1.1 SIN BD\TI1.1 SOAP_DOTNET_CONUNI_GR01\02 CLICON\02. CLICON\obj\Debug\_02.CLICON.exe
+D:\Arquitectura-De-Software\Unidad 1\T1.1 SIN BD\TI1.1 SOAP_DOTNET_CONUNI_GR01\02 CLICON\02. CLICON\obj\Debug\_02.CLICON.pdb
