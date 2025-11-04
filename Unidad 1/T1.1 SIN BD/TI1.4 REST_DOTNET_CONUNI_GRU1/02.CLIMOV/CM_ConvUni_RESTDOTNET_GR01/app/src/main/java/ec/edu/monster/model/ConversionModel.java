@@ -6,7 +6,7 @@ public class ConversionModel {
 
     // Método que llama al REST y devuelve el resultado
     public static double convert(String category, String from, String to, double value) throws Exception {
-        String urlStr = "http://192.168.100.157:5069/api/Convert"; // 10.0.2.2 apunta a localhost desde emulador
+        String urlStr = "http://10.0.2.2:5069/api/Convert";// 10.0.2.2 apunta a localhost desde emulador
         JSONObject json = new JSONObject();
         json.put("category", category);
         json.put("from", from);

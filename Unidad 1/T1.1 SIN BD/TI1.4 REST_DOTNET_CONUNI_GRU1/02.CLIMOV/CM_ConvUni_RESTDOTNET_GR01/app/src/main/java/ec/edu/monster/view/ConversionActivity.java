@@ -4,9 +4,7 @@ import android.os.AsyncTask;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.*;
-
 import androidx.appcompat.app.AppCompatActivity;
-
 import ec.edu.monster.R;
 import ec.edu.monster.controller.ConversionController;
 
@@ -34,8 +32,8 @@ public class ConversionActivity extends AppCompatActivity {
         convertButton.setOnClickListener(v -> convertUnit());
     }
 
-    private void setupSpinners(){
-        String[] categories = {"Seleccione","mass","length","temperature"};
+    private void setupSpinners() {
+        String[] categories = {"Seleccione", "mass", "length", "temperature"};
         ArrayAdapter<String> catAdapter = new ArrayAdapter<>(this, android.R.layout.simple_spinner_item, categories);
         catAdapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
         categorySpinner.setAdapter(catAdapter);
@@ -54,48 +52,52 @@ public class ConversionActivity extends AppCompatActivity {
         });
     }
 
-    private String[] getUnits(String category){
-        switch(category){
-            case "mass": return new String[]{"kg","g","lb","oz"};
-            case "length": return new String[]{"m","cm","km","in"};
-            case "temperature": return new String[]{"C","F","K","R"};
+    private String[] getUnits(String category) {
+        switch (category) {
+            case "mass": return new String[]{"kg", "g", "lb", "oz"};
+            case "length": return new String[]{"m", "cm", "km", "in"};
+            case "temperature": return new String[]{"C", "F", "K", "R"};
             default: return new String[]{"Seleccione una categoría"};
         }
     }
 
-    private void convertUnit(){
+    private void convertUnit() {
         String cat = categorySpinner.getSelectedItem().toString();
         String from = fromSpinner.getSelectedItem().toString();
         String to = toSpinner.getSelectedItem().toString();
         String valStr = valueField.getText().toString();
 
-        if(cat.equals("Seleccione") || from.equals("Seleccione una categoría") || to.equals("Seleccione una categoría") || valStr.isEmpty()){
-            Toast.makeText(this,"Complete todos los campos",Toast.LENGTH_SHORT).show();
+        if (cat.equals("Seleccione") || from.equals("Seleccione una categoría") || to.equals("Seleccione una categoría") || valStr.isEmpty()) {
+            Toast.makeText(this, "Complete todos los campos", Toast.LENGTH_SHORT).show();
             return;
         }
 
         double val;
-        try{
+        try {
             val = Double.parseDouble(valStr);
-        }catch(Exception e){
-            Toast.makeText(this,"Valor inválido",Toast.LENGTH_SHORT).show();
+        } catch (Exception e) {
+            Toast.makeText(this, "Valor inválido", Toast.LENGTH_SHORT).show();
             return;
         }
 
-        new AsyncTask<Double,Void,Double>(){
-            protected Double doInBackground(Double... params){
-                try{
+        new AsyncTask<Double, Void, Double>() {
+            protected Double doInBackground(Double... params) {
+                try {
                     return controller.convert(cat, from, to, val);
-                }catch(Exception e){
+                } catch (Exception e) {
                     e.printStackTrace();
                     return null;
                 }
             }
-            protected void onPostExecute(Double result){
-                if(result != null)
-                    resultLabel.setText("Resultado: "+result);
-                else
-                    Toast.makeText(ConversionActivity.this,"Error al conectar con el servidor",Toast.LENGTH_SHORT).show();
+
+            protected void onPostExecute(Double result) {
+                if (result != null) {
+                    resultLabel.setText(String.format("Resultado: %.6f %s", result, to));
+                } else {
+                    resultLabel.setText("Error al conectar, usando modo local...");
+                    double localResult = controller.convert(cat, from, to, val);
+                    resultLabel.append(String.format("\nResultado local: %.6f %s", localResult, to));
+                }
             }
         }.execute(val);
     }
