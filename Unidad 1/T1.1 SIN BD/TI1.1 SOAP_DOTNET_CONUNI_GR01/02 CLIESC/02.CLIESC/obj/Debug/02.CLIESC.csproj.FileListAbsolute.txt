@@ -7,3 +7,4 @@ D:\Arquitectura-De-Software\Unidad 1\T1.1 SIN BD\TI1.1 SOAP_DOTNET_CONUNI_GR01\0
 D:\Arquitectura-De-Software\Unidad 1\T1.1 SIN BD\TI1.1 SOAP_DOTNET_CONUNI_GR01\02 CLIESC\02.CLIESC\bin\Debug\02.CLIESC.pdb
 D:\Arquitectura-De-Software\Unidad 1\T1.1 SIN BD\TI1.1 SOAP_DOTNET_CONUNI_GR01\02 CLIESC\02.CLIESC\obj\Debug\02.CLIESC.exe
 D:\Arquitectura-De-Software\Unidad 1\T1.1 SIN BD\TI1.1 SOAP_DOTNET_CONUNI_GR01\02 CLIESC\02.CLIESC\obj\Debug\02.CLIESC.pdb
+D:\Arquitectura-De-Software\Unidad 1\T1.1 SIN BD\TI1.1 SOAP_DOTNET_CONUNI_GR01\02 CLIESC\02.CLIESC\obj\Debug\02.CLIESC.exe.config

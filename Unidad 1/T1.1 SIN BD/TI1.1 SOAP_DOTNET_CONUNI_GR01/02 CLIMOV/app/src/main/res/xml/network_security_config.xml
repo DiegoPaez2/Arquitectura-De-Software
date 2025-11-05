@@ -1,9 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <network-security-config>
-    <!-- Emulador: 10.0.2.2 | Teléfono real: IP LAN del PC -->
     <domain-config cleartextTrafficPermitted="true">
         <domain includeSubdomains="true">10.0.2.2</domain>
-        <!-- agrega tu IP LAN si usas dispositivo real, ej. 192.168.1.50 -->
-        <domain includeSubdomains="true">localhost</domain>
     </domain-config>
 </network-security-config>

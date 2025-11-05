@@ -1,26 +1,32 @@
-<manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.a02climov">
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
 
     <uses-permission android:name="android.permission.INTERNET" />
 
     <application
+        android:name=".App"
         android:allowBackup="true"
-        android:label="@string/app_name"
         android:usesCleartextTraffic="true"
         android:networkSecurityConfig="@xml/network_security_config"
-        android:theme="@style/Theme.Material3.Light.NoActionBar">
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Material3.DayNight.NoActionBar">
 
+        <!-- Login (inicio) -->
         <activity
-            android:name=".ui.LoginActivity"
+            android:name=".controller.LoginActivity"
             android:exported="true">
             <intent-filter>
-                <action android:name="android.intent.action.MAIN"/>
-                <category android:name="android.intent.category.LAUNCHER"/>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
 
+        <!-- Conversión -->
         <activity
-            android:name=".ui.ConvertActivity"
-            android:exported="false"/>
+            android:name=".controller.ConversionActivity"
+            android:exported="false" />
     </application>
 </manifest>
