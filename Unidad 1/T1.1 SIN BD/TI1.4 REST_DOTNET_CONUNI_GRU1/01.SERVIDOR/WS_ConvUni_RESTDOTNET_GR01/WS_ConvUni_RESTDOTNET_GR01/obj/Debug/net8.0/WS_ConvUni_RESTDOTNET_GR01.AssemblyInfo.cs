@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("WS_ConvUni_RESTDOTNET_GR01")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8caf25497590ec28ac2c32e446cf6e921f5b7154")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+98599cba33f14c1b45a60824b2dc1017a30c5b16")]
 [assembly: System.Reflection.AssemblyProductAttribute("WS_ConvUni_RESTDOTNET_GR01")]
 [assembly: System.Reflection.AssemblyTitleAttribute("WS_ConvUni_RESTDOTNET_GR01")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
