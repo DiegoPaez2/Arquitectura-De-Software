@@ -1,9 +1,9 @@
-C:\Users\diego\OneDrive\Desktop\Arquitectura\Unidad 1\TI1.1 SOAP_JAVA_CONUNI_GR01\01 SERVIDOR\WS_CONUNI_SOAPJAVA_GRO01\src\main\java\ec\edu\monster\controlador\UsuarioController.java
-C:\Users\diego\OneDrive\Desktop\Arquitectura\Unidad 1\TI1.1 SOAP_JAVA_CONUNI_GR01\01 SERVIDOR\WS_CONUNI_SOAPJAVA_GRO01\src\main\java\ec\edu\monster\modelo\ConversorTemperatura.java
-C:\Users\diego\OneDrive\Desktop\Arquitectura\Unidad 1\TI1.1 SOAP_JAVA_CONUNI_GR01\01 SERVIDOR\WS_CONUNI_SOAPJAVA_GRO01\src\main\java\ec\edu\monster\modelo\ConversorLongitud.java
-C:\Users\diego\OneDrive\Desktop\Arquitectura\Unidad 1\TI1.1 SOAP_JAVA_CONUNI_GR01\01 SERVIDOR\WS_CONUNI_SOAPJAVA_GRO01\src\main\java\ec\edu\monster\controlador\ConversionController.java
-C:\Users\diego\OneDrive\Desktop\Arquitectura\Unidad 1\TI1.1 SOAP_JAVA_CONUNI_GR01\01 SERVIDOR\WS_CONUNI_SOAPJAVA_GRO01\src\main\java\ec\edu\monster\prueba\PruebaConversiones.java
-C:\Users\diego\OneDrive\Desktop\Arquitectura\Unidad 1\TI1.1 SOAP_JAVA_CONUNI_GR01\01 SERVIDOR\WS_CONUNI_SOAPJAVA_GRO01\src\main\java\ec\edu\monster\prueba\PruebaUsuario.java
-C:\Users\diego\OneDrive\Desktop\Arquitectura\Unidad 1\TI1.1 SOAP_JAVA_CONUNI_GR01\01 SERVIDOR\WS_CONUNI_SOAPJAVA_GRO01\src\main\java\ec\edu\monster\modelo\ConversorMasa.java
-C:\Users\diego\OneDrive\Desktop\Arquitectura\Unidad 1\TI1.1 SOAP_JAVA_CONUNI_GR01\01 SERVIDOR\WS_CONUNI_SOAPJAVA_GRO01\src\main\java\ec\edu\monster\ws\WS_Conversion_Unidades.java
-C:\Users\diego\OneDrive\Desktop\Arquitectura\Unidad 1\TI1.1 SOAP_JAVA_CONUNI_GR01\01 SERVIDOR\WS_CONUNI_SOAPJAVA_GRO01\src\main\java\ec\edu\monster\modelo\UsuarioModel.java
+D:\Josue\GitHub Personal\Arquitectura-De-Software\Unidad 1\T1.1 SIN BD\TI1.1 SOAP_JAVA_CONUNI_GR01\01 SERVIDOR\WS_CONUNI_SOAPJAVA_GRO01\src\main\java\ec\edu\monster\prueba\PruebaConversiones.java
+D:\Josue\GitHub Personal\Arquitectura-De-Software\Unidad 1\T1.1 SIN BD\TI1.1 SOAP_JAVA_CONUNI_GR01\01 SERVIDOR\WS_CONUNI_SOAPJAVA_GRO01\src\main\java\ec\edu\monster\modelo\ConversorLongitud.java
+D:\Josue\GitHub Personal\Arquitectura-De-Software\Unidad 1\T1.1 SIN BD\TI1.1 SOAP_JAVA_CONUNI_GR01\01 SERVIDOR\WS_CONUNI_SOAPJAVA_GRO01\src\main\java\ec\edu\monster\modelo\ConversorTemperatura.java
+D:\Josue\GitHub Personal\Arquitectura-De-Software\Unidad 1\T1.1 SIN BD\TI1.1 SOAP_JAVA_CONUNI_GR01\01 SERVIDOR\WS_CONUNI_SOAPJAVA_GRO01\src\main\java\ec\edu\monster\ws\WS_Conversion_Unidades.java
+D:\Josue\GitHub Personal\Arquitectura-De-Software\Unidad 1\T1.1 SIN BD\TI1.1 SOAP_JAVA_CONUNI_GR01\01 SERVIDOR\WS_CONUNI_SOAPJAVA_GRO01\src\main\java\ec\edu\monster\controlador\ConversionController.java
+D:\Josue\GitHub Personal\Arquitectura-De-Software\Unidad 1\T1.1 SIN BD\TI1.1 SOAP_JAVA_CONUNI_GR01\01 SERVIDOR\WS_CONUNI_SOAPJAVA_GRO01\src\main\java\ec\edu\monster\modelo\ConversorMasa.java
+D:\Josue\GitHub Personal\Arquitectura-De-Software\Unidad 1\T1.1 SIN BD\TI1.1 SOAP_JAVA_CONUNI_GR01\01 SERVIDOR\WS_CONUNI_SOAPJAVA_GRO01\src\main\java\ec\edu\monster\controlador\UsuarioController.java
+D:\Josue\GitHub Personal\Arquitectura-De-Software\Unidad 1\T1.1 SIN BD\TI1.1 SOAP_JAVA_CONUNI_GR01\01 SERVIDOR\WS_CONUNI_SOAPJAVA_GRO01\src\main\java\ec\edu\monster\modelo\UsuarioModel.java
+D:\Josue\GitHub Personal\Arquitectura-De-Software\Unidad 1\T1.1 SIN BD\TI1.1 SOAP_JAVA_CONUNI_GR01\01 SERVIDOR\WS_CONUNI_SOAPJAVA_GRO01\src\main\java\ec\edu\monster\prueba\PruebaUsuario.java

@@ -3,7 +3,7 @@ const soap = require("soap");
 
 const WSDL_URL =
   process.env.WSDL_URL ||
-  "http://10.9.6.121:8080/WS_CONUNI_SOAPJAVA_GRO01/WS_Conversion_Unidades?wsdl";
+  "http://localhost:8080/WS_CONUNI_SOAPJAVA_GRO01/WS_Conversion_Unidades?wsdl";
 
 let _client = null;
 

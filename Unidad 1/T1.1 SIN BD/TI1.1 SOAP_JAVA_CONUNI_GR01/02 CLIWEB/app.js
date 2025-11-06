@@ -33,7 +33,7 @@ const HOST = process.env.HOST || "0.0.0.0";
 app.listen(PORT, HOST, () => {
   console.log(`✅ Servidor listo: http://${HOST}:${PORT}`);
   console.log(
-    `🔗 WSDL: ${process.env.WSDL_URL || "http://192.168.100.170:8080/WS_CONUNI_SOAPJAVA_GRO01/WS_Conversion_Unidades?wsdl"}`
+    `🔗 WSDL: ${process.env.WSDL_URL || "http://10.9.6.53:8080/WS_CONUNI_SOAPJAVA_GRO01/WS_Conversion_Unidades?wsdl"}`
   );
 });
 
