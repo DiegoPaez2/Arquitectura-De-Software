@@ -11,7 +11,7 @@
         android:theme="@style/Theme.Material3.Light.NoActionBar">
 
         <activity
-            android:name=".ui.LoginActivity"
+            android:name=".ec.edu.monster.ui.LoginActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN"/>
@@ -20,7 +20,7 @@
         </activity>
 
         <activity
-            android:name=".ui.ConvertActivity"
+            android:name=".ec.edu.monster.ui.ConvertActivity"
             android:exported="false"/>
     </application>
 </manifest>

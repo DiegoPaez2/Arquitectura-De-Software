@@ -4,7 +4,7 @@
         <!-- para emulador -->
         <domain>10.0.2.2</domain>
         <!-- para celular real (reemplaza con la IP de tu PC) -->
-        <domain>192.168.1.50</domain>
+        <domain>192.168.100.170</domain>
         <domain>localhost</domain>
     </domain-config>
 </network-security-config>
