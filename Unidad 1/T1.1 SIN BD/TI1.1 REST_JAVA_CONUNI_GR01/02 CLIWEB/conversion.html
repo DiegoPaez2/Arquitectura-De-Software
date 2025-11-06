@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Conversor REST | Monsters Inc</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body class="app-body monsters-bg">
+    <div class="overlay"></div>
+
+    <header class="header-glass">
+        <h1>Conversor RESTful - Monsters Inc</h1>
+        <button class="btn-logout" onclick="logout()">Cerrar Sesión</button>
+    </header>
+
+    <main class="main-container">
+        <section class="converter-card">
+            <h2>Conversión de Unidades</h2>
+            <select id="conversion" class="input">
+                <option value="kilometros-a-millas">Kilómetros → Millas</option>
+                <option value="metros-a-pies">Metros → Pies</option>
+                <option value="pulgadas-a-centimetros">Pulgadas → Centímetros</option>
+                <option value="kilogramos-a-libras">Kilogramos → Libras</option>
+                <option value="gramos-a-onzas">Gramos → Onzas</option>
+                <option value="libras-a-kilogramos">Libras → Kilogramos</option>
+                <option value="celsius-a-fahrenheit">Celsius → Fahrenheit</option>
+                <option value="fahrenheit-a-celsius">Fahrenheit → Celsius</option>
+                <option value="celsius-a-kelvin">Celsius → Kelvin</option>
+            </select>
+
+            <input type="number" id="valor" class="input" placeholder="Valor a convertir">
+            <button id="btnConvertir" class="btn-convertir">Convertir</button>
+
+            <p id="resultado" class="resultado"></p>
+        </section>
+    </main>
+
+    <script type="module" src="js/controller.js"></script>
+</body>
+</html>
