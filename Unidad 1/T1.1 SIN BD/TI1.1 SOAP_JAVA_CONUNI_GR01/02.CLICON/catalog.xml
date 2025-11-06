@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<catalog xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog" prefer="system">
-    <system systemId="http://10.9.6.121:8080/WS_CONUNI_SOAPJAVA_GRO01/WS_Conversion_Unidades?wsdl" uri="xml-resources/web-service-references/WS_Conversion_Unidades_3/wsdl/10.9.6.121_8080/WS_CONUNI_SOAPJAVA_GRO01/WS_Conversion_Unidades.wsdl"/>
-    <system systemId="http://10.9.6.121:8080/WS_CONUNI_SOAPJAVA_GRO01/WS_Conversion_Unidades?xsd=1" uri="xml-resources/web-service-references/WS_Conversion_Unidades_3/wsdl/10.9.6.121_8080/WS_CONUNI_SOAPJAVA_GRO01/WS_Conversion_Unidades.xsd_1.xsd"/>
-    <system systemId="http://192.168.100.170:8080/WS_CONUNI_SOAPJAVA_GRO01/WS_Conversion_Unidades?wsdl" uri="xml-resources/web-service-references/WS_Conversion_Unidades_4/wsdl/192.168.100.170_8080/WS_CONUNI_SOAPJAVA_GRO01/WS_Conversion_Unidades.wsdl"/>
-    <system systemId="http://192.168.100.170:8080/WS_CONUNI_SOAPJAVA_GRO01/WS_Conversion_Unidades?xsd=1" uri="xml-resources/web-service-references/WS_Conversion_Unidades_4/wsdl/192.168.100.170_8080/WS_CONUNI_SOAPJAVA_GRO01/WS_Conversion_Unidades.xsd_1.xsd"/>
-    <system systemId="http://localhost:8080/WS_CONUNI_SOAPJAVA_GRO01/WS_Conversion_Unidades?wsdl" uri="xml-resources/web-service-references/WS_Conversion_Unidades/wsdl/localhost_8080/WS_CONUNI_SOAPJAVA_GRO01/WS_Conversion_Unidades.wsdl"/>
-    <system systemId="http://localhost:8080/WS_CONUNI_SOAPJAVA_GRO01/WS_Conversion_Unidades?xsd=1" uri="xml-resources/web-service-references/WS_Conversion_Unidades/wsdl/localhost_8080/WS_CONUNI_SOAPJAVA_GRO01/WS_Conversion_Unidades.xsd_1.xsd"/>
-</catalog>

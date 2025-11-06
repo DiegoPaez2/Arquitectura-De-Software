@@ -1,8 +1,0 @@
-ec\edu\monster\modelo\Longitud.class
-ec\edu\monster\ws\ConversionResource.class
-org\netbeans\rest\application\config\ApplicationConfig.class
-ec\edu\monster\modelo\Masa.class
-ec\edu\monster\modelo\Temperatura.class
-ec\edu\monster\ws\filter\CorsFilter.class
-ec\edu\monster\ws\ApplicationConfig.class
-ec\edu\monster\controlador\ConversionControlador.class
